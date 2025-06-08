@@ -6,4 +6,7 @@ class Banana(Fruit):
 
     def peel(self):
         return f"{self.name} is being peeled."
+
+    def ripen(self):
+        return f"{self.name} is being ripened."
     
