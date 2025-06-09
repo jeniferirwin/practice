@@ -6,3 +6,6 @@ class Apple(Fruit):
 
     def slice(self):
         return f"{self.name} is being sliced."
+
+    def dice(self):
+        return f"{self.name} is being diced."
