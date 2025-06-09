@@ -6,3 +6,6 @@ class Orange(fruit):
 
 	def peel(self):
 		return f"{self.name} is being peeled."
+
+	def pulp(self):
+		return f"{self.name} is now pulped."
