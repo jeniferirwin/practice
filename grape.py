@@ -6,3 +6,6 @@ class Grape(Fruit):
 
     def peel(self):
         return f"{self.name} is being peeled."
+
+    def microwave(self):
+        return f"{self.name} has turned into plasma."
